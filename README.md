@@ -4,9 +4,9 @@ Docker image which starts a statsd daemon and forwards data to librato.com
 
 contains the following software:  
 
-node 0.12.9  
-statsd 0.7.2  
-statsd-librato-backend 0.1.7
+node 8.15
+statsd 0.8.2  
+statsd-librato-backend 2.0.16
 
 #Run as docker image  
 
