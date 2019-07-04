@@ -7,5 +7,7 @@
     }
     , backends: ["statsd-librato-backend"]
     , port: parseInt(process.env.STATSD_PORT) || 8125
+    , keyNameSanitize: false
+    , deleteIdleStats: true
   };
 })()
